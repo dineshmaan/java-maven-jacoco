@@ -36,9 +36,13 @@
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.2</version>
+				<groupId>org.apahe.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+				<target>01.6</target>
+					</configuration>
+				</plugin>
 				<executions>
 					<execution>
 						<goals>
